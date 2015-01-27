@@ -1,7 +1,7 @@
 # PaginatedView
 
-- Add PaginatedView folder to your project.
-- In you view controller:
+- Add the PaginatedView folder to your project.
+- In your view controller:
   @interface ViewController : PaginatedViewController
 - Add PaginatedViewControllerDelegate
 - In viewDidLoad, init currentPage and totalPage.
