@@ -14,9 +14,16 @@ Usage
 
 ```
 - Add PaginatedViewControllerDelegate
-- In viewDidLoad, init currentPage and totalPage variables and add
+- In viewDidLoad, init currentPage and totalPage variables and add paginatedDelegate.
 ```
-self.paginatedDelegate = self;
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    self.paginatedDelegate = self;
+    self.currentPage = CURRENT_PAGE;
+    self.totalPage = TOTAL_PAGE;
+    
+}
 
 ```
 
