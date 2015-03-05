@@ -39,8 +39,6 @@
 
 - (void)loadingMore {
     
-    NSLog(@"loadingMore");
-    
     if (self.currentPage < self.totalPage) {
         
         self.isLoading = YES;
